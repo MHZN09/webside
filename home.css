@@ -1,0 +1,82 @@
+:root{
+    margin: 0;
+    padding: 0;
+    border: 1Px black solid;
+}
+
+
+.topbar{
+
+    left: 0;
+    
+    width: 100%;
+    top: 0;
+    display: flex;
+}
+
+.logo{
+    height: 99Px;
+    margin-top: 10px;
+    width: 65Px;
+}
+
+.nav{
+    margin-left:10%;
+    margin-top: 4%;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    font-size: 120%;
+   
+}
+
+
+.nav li{
+    margin-left: 40%;
+    list-style: none;
+
+}
+ 
+.navigation li a{
+    text-decoration: none;
+    color:white;
+}
+.sidebar{
+    height: 795px;
+    width: 200Px;
+    margin-top: 20Px;
+    overflow: scroll;
+    position: fixed;
+    left: 0;
+}
+
+.sidebar::-webkit-scrollbar{
+    width:3Px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: black;
+    height: 30Px;
+}
+
+.aa {
+    padding-left: 60Px;
+    font-size: large;
+}
+
+.main{
+    height: 100%;
+    margin-top: 30Px;
+    margin-left: 199Px;
+    position: fixed;
+    left: 0;
+}
+
+
+.body{
+border: 2px;
+}
