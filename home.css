@@ -109,7 +109,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 140px;
-    min-height: calc(100vh - 80px);
+    max-height: 50vh);
   }
   @media (max-width: 767px) {
     .landing-page .content .container {
