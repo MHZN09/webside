@@ -20,6 +20,13 @@
     width: 65Px;
 }
 
+.searchbar{
+    height: 20px;
+    margin: 3px;
+    padding: 10px;
+    display: inline-block;
+}
+
 .nav{
     margin-left:10%;
     margin-top: 4%;
